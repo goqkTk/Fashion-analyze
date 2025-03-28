@@ -4,6 +4,7 @@ import seaborn as sns
 from wordcloud import WordCloud
 
 # 데이터셋 불러오기
+# https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
 clothing_reviews = pd.read_csv(r'C:\Users\dbsxor\OneDrive\바탕 화면\fashion eojjeogo\a.csv')
 
 # 데이터 전처리
